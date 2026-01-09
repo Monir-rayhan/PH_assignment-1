@@ -246,7 +246,7 @@ p{
 
 
 #second-brain .second-brain-container {
-    border: 1px solid #E0E0E0;
+    /* border: 1px solid #E0E0E0; */
     display: flex;
     margin-top: 120px;
     margin-bottom: 120px;
