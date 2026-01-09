@@ -47,3 +47,12 @@ nav .menu a {
 button:hover{
     background-color: #1bd754;
 }
+
+
+
+/* BANNER */
+
+#banner{
+    border: 1px solid red;
+    background-image: image();
+}
