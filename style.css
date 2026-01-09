@@ -60,11 +60,15 @@ button:hover{
     height: 674px;
     align-items: center;
     margin: 0 auto;
+    justify-content: center;
+    justify-items: center;
 }
 #banner .banner-content{
-    width: ;
+    /* width: ; */
     padding-top: 70px;
     padding-bottom: 134px;
+
+    justify-items: center;
 }
 #banner .text-box{
     width: fit-content;
@@ -138,24 +142,86 @@ p{
         font-size: 16px;
         font-weight: 600;
         line-height: 19px;
-
     }
-    color: rgba(255, 255, 255, 1);
-
-font-family: Inter;
-font-style: Semi Bold;
-font-size: 16px;
-font-weight: 600;
-line-height: 19px;
-letter-spacing: 0%;
-text-align: left;
-text-transform: capitalize;
 }
 #banner-btn .banner-btn2{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
+    gap: 10px;
     background-color: transparent;
-    border-radius: 4px;
+    padding: 12px 16px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    p{
+        color: #FFFFFF;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19px;
+    }
 }
+
+
+/* BANNER END */
+
+
+#note-container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#note-container .section-heading{
+    h1{
+        margin-top: 60px;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 58px;
+        font-style: Bold;
+        text-align: center;
+    }
+    p{
+        margin-top: 16px;
+        margin-bottom: 44px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        font-style: Regular;
+        color: #627382;
+    }
+}
+.notes .note-cards{
+    gap: 24px;
+    border: 1px solid red;
+    width: 322px;
+    height: 300px;
+    align-items: center;
+    justify-items: center;
+}
+.notes .note-cards .note-info{
+    /* display: block; */
+    img{
+        background-color: #1bd754;
+        padding: 30px;
+        border: none;
+        border-radius: 50%;
+    }
+    h3{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 29px;
+        font-style: SemiBold;
+        margin-bottom: 8px;
+    }
+}
+
+color: var(--#001931, var(--Color, rgba(0, 25, 49, 1)));
+
+font-family: Inter;
+font-style: Semi Bold;
+font-size: 24px;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
